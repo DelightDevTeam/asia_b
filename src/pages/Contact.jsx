@@ -20,7 +20,7 @@ const ContactPage = () => {
         <img src={logo} />
         <div>
           <small className='fw-bold '>
-            Win 99 Slot မှလှိုက်လှဲစွာကြိုဆိုပါတယ်ရှင့်
+            Asia Bet Slot မှလှိုက်လှဲစွာကြိုဆိုပါတယ်ရှင့်
           </small>
           <small className='d-block mt-2 fw-bold'>
             လူကြီးမင်းများတွက် 24 နာရီ၀န်ဆောင်မှုများပေးဆောင်နိုင်ရန်

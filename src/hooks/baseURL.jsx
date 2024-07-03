@@ -1,3 +1,3 @@
-const BASE_URL = 'https://win99mm.online/api';
+const BASE_URL = 'https://asiamm.online/api';
 
 export default BASE_URL;
