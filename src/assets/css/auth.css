@@ -1,0 +1,22 @@
+.authBg{
+    background-image: linear-gradient(150deg, rgb(51, 51, 51) 45%, rgb(38, 38, 38) 100%)    ;
+    height: 100vh;
+}
+.formIcon{
+    background: linear-gradient(180deg, #c99f36 -5.81%, #fae488 43.27%, #fae488 45.71%, #fae488 48.07%, #fae488 50.7%, #fae488 53.63%, #f6df82 56.18%, #f2da7c 58.53%, #b3841b 100%);
+    color: #000;
+}
+.authForm{
+    width: 40%;
+    margin: auto;
+}
+.authRegBtn{
+    color: #DDBB58;
+    border: 2px solid #DDBB58;
+    background: none;
+}
+@media screen and (max-width:800px) {
+    .authForm{
+        width: 80%;
+    }
+}

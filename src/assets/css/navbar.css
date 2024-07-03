@@ -1,0 +1,114 @@
+.offcanvas{
+    background-image: linear-gradient(rgb(20, 20, 20) 0px, rgb(56, 56, 56));
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+.sidebar{
+    background-image: linear-gradient(rgb(20, 20, 20) 0px, rgb(56, 56, 56));
+     width: 30vw !important;
+     overflow-x: hidden !important;
+     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ }
+.navHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.sideBarImg{
+    width: 30px;
+    height: 30px;
+}
+.sidebarSocial{
+    margin: auto;
+    background: #3caf48;
+    width: 100%;
+    box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, .3);
+    border-bottom: 5px solid rgba(0, 0, 0, .45);
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+}
+.navLogo{
+    /* width: 140px; */
+    width: 60px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px #000;
+    /* height: 130px; */
+    /* object-fit: cover; */
+}
+.mmFlag{
+    width: 38px;
+    height: 38px;
+}
+.navbar{
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    background: #262626;
+}
+.navLoginBtn{
+    font-size: 16px;
+    background: linear-gradient(180deg, #c99f36 -5.81%, #fae488 43.27%, #fae488 45.71%, #fae488 48.07%, #fae488 50.7%, #fae488 53.63%, #f6df82 56.18%, #f2da7c 58.53%, #b3841b 100%);
+    color: #404040;
+}
+.navDepositImg{
+    height: 50px;
+    width: 60px;
+}
+.navProfileImg{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:1030px) {
+    .sidebar{
+        width: 40vw !important;
+    }
+}
+@media screen and (max-width:950px) {
+    .sidebar{
+        width: 60vw !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .sidebar{
+        width: 65vw !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .sidebarSocial{
+        font-size: 18px !important;
+     }
+    .mmFlag{
+        width: 30px;
+        height: 30px;
+    }
+    .navLoginBtn{
+        font-size: 14px;
+    }
+    .sidebarTitle{
+        font-size: 14px;
+    }
+    .sidebarTeleText,.sidebarViberText{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:370px){
+    .sidebarTeleText,.sidebarViberText{
+        font-size: 16px;
+     }
+}
+@media screen and (max-width:360px) {
+    .mmFlag{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .navLoginBtn{
+        font-size: 13px;
+    }
+}
+ 

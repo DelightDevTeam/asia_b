@@ -1,0 +1,48 @@
+.gameHeading{
+    background: #262626;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .07);
+}
+.activeGameHeading{
+    background: linear-gradient(180deg, #c99f36 -5.81%, #fae488 43.27%, #fae488 45.71%, #fae488 48.07%, #fae488 50.7%, #fae488 53.63%, #f6df82 56.18%, #f2da7c 58.53%, #b3841b 100%);
+}
+.gameHeadingImg{
+    width: 30px;
+    height: 30px;
+    object-position: center;
+}
+.activeGameList{
+    border: 2px solid #fae488;
+}
+.gameProviders{
+    background: #00000082;
+    overflow-x: scroll;
+
+}
+.gameProvider{
+    background: #262626;
+    box-shadow: -1px 1px 6px 0 #00000059;
+    color: #fff;
+}
+.gameProviders::-webkit-scrollbar{
+ display: none;
+}
+.gameImg{
+    width: 90%;
+    height: 100%;
+    border: 3px solid #f2da7c;
+}
+.hotgame{
+    width: 90%;
+    height: 200px;
+    border: 3px solid #f2da7c;
+    
+}
+@media screen and (max-width:500px) {
+    .gameProvider{
+        font-size: 13px;
+    }
+    .hotgame{
+        width: 95%;
+        height: 150px;
+    }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Kanit", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #333333;
+  color: white;
+}
+ button{
+  border: none;
+ }
+.cursor-pointer{
+  cursor: pointer;
+}
+.h-max{
+  height: max-content;
+}
+.w-max{
+  width: max-content;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.footerMarqueeImg{
+  height: 50px;
+  width: auto;
+  object-fit: cover;
+}
+.swiper-pagination-bullet{
+  background: gainsboro;
+}
+.swiper-pagination-bullet-active{
+  background: linear-gradient(180deg, #c99f36 -5.81%, #fae488 43.27%, #fae488 45.71%, #fae488 48.07%, #fae488 50.7%, #fae488 53.63%, #f6df82 56.18%, #f2da7c 58.53%, #b3841b 100%);
+}
+.bannerImg{
+  height: 380px;
+object-position: center;
+}
+.w-full{
+  width: 100%;
+}
+.promotionImg{
+  height: 300px;
+  width: 100%;
+}
+.socialContactImg{
+  width: 40px;
+  height: 40px;
+}
+.popUpImg{
+  width: 100%;
+  height: 280px;
+ }
+.modal{
+  margin-top: 20vh !important;
+  --bs-modal-bg: none !important;
+}
+.modalCloseBtn{
+  background: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width:1000px){
+  .bannerImg{
+    height: 300px;
+  }
+}
+@media screen and (max-width:950px){
+  .promotionImg{
+    height: 250px;
+  }
+}
+@media screen and (max-width:800px){
+  .promotionImg{
+    height: 200px;
+  }
+}
+@media screen and (max-width:760px){
+  .bannerImg{
+    height: 250px;
+  }
+}
+@media screen and (max-width:550px){
+  th,td{
+    font-size: 13px;
+  }
+  .bannerImg{
+    height: 200px;
+  }
+}
+@media screen and (max-width:500px) {
+  .footerMarqueeImg{
+    max-height: 40px;
+  }
+  .promotionImg{
+    height: 180px;
+  }
+  .popUpImg{
+    height: 230px;
+  }
+}
+@media screen and (max-width:450px) {
+  .promotionImg{
+    height: 150px;
+  }
+}
+@media screen and (max-width:420px) {
+  .popUpImg{
+    height: 200px;
+  }
+}
+@media screen and (max-width:400px){
+  .bannerImg{
+    height: 160px;
+  }
+}
+@media screen and (max-width:360px) {
+  .popUpImg{
+    height: 180px;
+  }
+}
+@media screen and (max-width:330px) {
+  .promotionImg{
+    height: 130px;
+  }
+}

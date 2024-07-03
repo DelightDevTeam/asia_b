@@ -1,0 +1,16 @@
+.fixedBottomIcon{
+    width: 30px;
+    height: 30px;
+}
+.activeFixedBottomIcon{
+    background: linear-gradient(180deg, #c99f36 -5.81%, #fae488 43.27%, #fae488 45.71%, #fae488 48.07%, #fae488 50.7%, #fae488 53.63%, #f6df82 56.18%, #f2da7c 58.53%, #b3841b 100%);
+ }
+ .normalColor{
+    filter: invert(1)
+ }
+ .bottomMenu{
+    overflow-x: hidden !important;
+    border-top: 2px solid #c99f36;
+    background: #262626 ;
+    box-shadow: 0 -1px 9px rgba(0, 0, 0, .34);
+}
