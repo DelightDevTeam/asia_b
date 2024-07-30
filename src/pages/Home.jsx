@@ -58,11 +58,11 @@ const HomePage = () => {
                 လော့အင်
               </button>
             </Link>
-            {/* <Link to={"/register"}>
+            <Link to={"/register"}>
               <button className="mt-3 w-full text-center authRegBtn fw-bold rounded-3 py-2  d-block px-sm-4">
                 <h5 className="p-0 m-0 fw-bold">စာရင်းသွင်းရန်</h5>
               </button>
-            </Link> */}
+            </Link>
           </>
         )}
         {auth && (
