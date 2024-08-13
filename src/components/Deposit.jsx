@@ -197,7 +197,7 @@ const Deposit = () => {
                     </div>
                 </div>
                 <div className="row mb-2">
-                  <div className="profileTitle col-5 mt-2">နောက်ဆုံးဂဏန်း ၄လုံး : </div>
+                  <div className="profileTitle col-5 mt-2">နောက်ဆုံးဂဏန်း ၆လုံး : </div>
                   <div className="col-7">
                     <input
                       type="text"
