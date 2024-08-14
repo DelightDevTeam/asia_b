@@ -175,7 +175,7 @@ const WithDraw = () => {
                 <div className="profileTitle col-5 mt-2">User Password  : </div>
                 <div className="col-7">
                   <input type="password" className="form-control"
-                  placeholder='လျို့ဝှက်နံပါတ်' 
+                  placeholder='ဂိမ်းအကောင့်လျို့ဝှက်နံပါတ်' 
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   />

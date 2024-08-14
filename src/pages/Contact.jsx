@@ -8,10 +8,9 @@ import { Link } from 'react-router-dom';
 
 const ContactPage = () => {
   const socials = [
-    { img: tele, title: 'Telegram Official', link: '/' },
-    { img: viber, title: 'Viber Official', link: '/' },
-    { img: fb, title: 'Facebook Official', link: '/' },
-    { img: line, title: 'Line Official', link: '/' },
+    { img: tele, title: 'Telegram Official', link: 'https://t.me/shanminthar77' },
+    { img: viber, title: '09898048376', link: 'viber://chat?number=09898048376' },
+    { img: viber, title: '09263430377', link: 'viber://chat?number=09263430377' },
   ];
   return (
     <div className='py-5 px-3 px-sm-5 '>
@@ -27,11 +26,11 @@ const ContactPage = () => {
           </small>
         </div>
       </div>
-      <div className='row mt-sm-5'>
+      <div className='row mt-sm-5 justify-content-center'>
         {socials.map((item, index) => {
           return (
             <div className='col-6 mb-4 col-sm-3 text-center' key={index}>
-              <Link to={item.link}>
+              <Link to={item.link} target='_blank'>
                 <img src={item.img} className='socialContactImg' />
                 <small className='d-block'>{item.title}</small>
               </Link>

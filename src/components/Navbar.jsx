@@ -32,7 +32,7 @@ function Navbar() {
     { img: promotion, name: 'ပရိုမိုးရှင်း', link: '/promotion' },
     // {img:trophy,name:'အမှတ်စဥ်များ',link:'/ranking'},
     { img: contact, name: 'ဆက်သွယ်ရန်', link: '/contact' },
-    { img: about, name: 'ကျွန်ုပ်တို့အကြောင်း', link: '/contact' },
+    // { img: about, name: 'ကျွန်ုပ်တို့အကြောင်း', link: '/contact' },
   ];
   const [show, setShow] = useState(false);
 
@@ -105,20 +105,26 @@ function Navbar() {
                 </div>
               );
             })}
-            <div className='mt-4 w-max px-4 px-sm-5 py-2 cursor-pointer sidebarSocial text-center rounded-3'>
-              <FaViber size={28} />
-              <p className=' fw-semibold'>09123456890</p>
-            </div>
+            <Link to={'viber://chat?number=09263430377'} target='_blank'>
+              <div className='mt-4 w-max px-4 px-sm-5 py-2 cursor-pointer sidebarSocial text-center rounded-3'>
+                <FaViber size={28} />
+                <p className=' fw-semibold'>09263430377</p>
+              </div>
+            </Link>
+            <Link to={'https://t.me/shanminthar77'} target='_blank'>
             <h5 className=' sidebarTeleText text-center fw-semibold mt-4 mb-3'>
               Telegram
               <span className='mx-1 mx-sm-3'>|</span>
-              0912346590
+              shanminthar77
             </h5>
+            </Link>
+            <Link to={'viber://chat?number=09898048376'} target='_blank'>
             <h5 className='sidebarViberText text-center fw-semibold'>
               Viber
               <span className='mx-1 mx-sm-3'>|</span>
-              0912346590
+              09898048376
             </h5>
+            </Link>
           </Offcanvas.Body>
         </div>
       </Offcanvas>
